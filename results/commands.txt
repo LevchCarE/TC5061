@@ -1,0 +1,10 @@
+python train.py --C 1 --class-weight balanced --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E01_C1_balanced_lbfgs --role candidate
+python train.py --C 0.01 --class-weight balanced --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E02_C0.01_balanced_lbfgs --role candidate
+python train.py --C 0.1 --class-weight balanced --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E03_C0.1_balanced_lbfgs --role candidate
+python train.py --C 10 --class-weight balanced --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E04_C10_balanced_lbfgs --role candidate
+python train.py --C 0.01 --class-weight none --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E05_C0.01_none_lbfgs --role candidate
+python train.py --C 0.1 --class-weight none --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E06_C0.1_none_lbfgs --role candidate
+python train.py --C 1 --class-weight none --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E07_C1_none_lbfgs --role candidate
+python train.py --C 10 --class-weight none --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name E08_C10_none_lbfgs --role candidate
+python train.py --C 1 --class-weight balanced --solver liblinear --max-iter 1000 --tol 0.0001 --seed 42 --run-name E09_C1_balanced_liblinear --role candidate
+python train.py --C 1 --class-weight balanced --solver lbfgs --max-iter 1000 --tol 0.0001 --seed 42 --run-name R01_repeticion_E01 --role reproducibility

@@ -1,0 +1,76 @@
+{
+  "batch": "20261012T043219Z",
+  "experiment": "TC5061_BreastCancer_LogisticRegression",
+  "experiment_id": "1",
+  "best_run_id": "d11f170ba7554b01821a3ed662d7b630",
+  "best_name": "E04_C10_balanced_lbfgs",
+  "best_params": {
+    "C": "10.0",
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": "1000",
+    "tol": "0.0001",
+    "seed": "42",
+    "test_size": "0.2",
+    "cv_folds": "5",
+    "threshold": "0.5",
+    "regularization": "L2",
+    "data_sha256": "88a78a30d26c16887c32e61dacf708bac605b586fc05a353fba0cca04c5525a5",
+    "code_sha256": "e7c5d765a3b1af47bb0b7616c6ffe218d83fb3b03da471d6f69106ad1c8286c3",
+    "train_rows": "3218",
+    "test_rows": "805",
+    "rows_raw": "4024",
+    "rows_clean": "4023",
+    "duplicates_removed": "1"
+  },
+  "best_cv_metrics": {
+    "cv_accuracy_mean": 0.7206413067627484,
+    "cv_accuracy_std": 0.013988942412968865,
+    "cv_precision_mean": 0.30281231295636185,
+    "cv_precision_std": 0.013647054254300715,
+    "cv_recall_mean": 0.6308596165739023,
+    "cv_recall_std": 0.033525479314050824,
+    "cv_f1_mean": 0.40900561438418004,
+    "cv_f1_std": 0.016689091203256703,
+    "cv_roc_auc_mean": 0.7461648501491227,
+    "cv_roc_auc_std": 0.020665862450436112,
+    "cv_average_precision_mean": 0.4051416423397474,
+    "cv_average_precision_std": 0.021013055785385447
+  },
+  "test_metrics": {
+    "accuracy": 0.6968944099378882,
+    "precision": 0.28,
+    "recall": 0.6260162601626016,
+    "f1": 0.3869346733668342,
+    "roc_auc": 0.7310159025343919,
+    "average_precision": 0.3798185748405065
+  },
+  "reproducibility": {
+    "original_run": "434b22a369ff44d6bf2179d34d891519",
+    "repeat_run": "9e700417ced0493193e6ca09052e1a18",
+    "max_metric_abs_difference": 0.0,
+    "identical_oof_predictions": true,
+    "same_split_indices": true
+  },
+  "data": {
+    "rows_raw": 4024,
+    "rows_clean": 4023,
+    "duplicates_removed": 1
+  },
+  "classes": {
+    "0": 3407,
+    "1": 616
+  },
+  "candidate_runs": [
+    "434b22a369ff44d6bf2179d34d891519",
+    "1f0d22438de644d59d436e8f6e71e7d4",
+    "afd6e1af9cb14cd7af74e07795fde238",
+    "d11f170ba7554b01821a3ed662d7b630",
+    "933238d0ba5f4baaa20e55754006d0f3",
+    "cf725ad8522e4662bcc2bba2c45cde7b",
+    "e0c8c1c0cfd74713ba5958b38864dc16",
+    "f37a9b3aeb3a41d1b07ca53b15c20834",
+    "c247e2d3ed3441578d8e110503b7c374"
+  ],
+  "repeat_run": "9e700417ced0493193e6ca09052e1a18"
+}

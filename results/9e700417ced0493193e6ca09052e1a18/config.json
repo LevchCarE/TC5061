@@ -1,0 +1,19 @@
+{
+  "C": 1.0,
+  "class_weight": "balanced",
+  "solver": "lbfgs",
+  "max_iter": 1000,
+  "tol": 0.0001,
+  "seed": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "threshold": 0.5,
+  "regularization": "L2",
+  "data_sha256": "88a78a30d26c16887c32e61dacf708bac605b586fc05a353fba0cca04c5525a5",
+  "code_sha256": "e7c5d765a3b1af47bb0b7616c6ffe218d83fb3b03da471d6f69106ad1c8286c3",
+  "train_rows": 3218,
+  "test_rows": 805,
+  "rows_raw": 4024,
+  "rows_clean": 4023,
+  "duplicates_removed": 1
+}
